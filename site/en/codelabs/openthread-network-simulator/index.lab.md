@@ -39,7 +39,7 @@ implementation of Thread. Despite its small code size and memory footprint,
 OpenThread supports all features defined in the
 [Thread Specification](https://www.threadgroup.org/support#specifications).
 
-[OpenThread Network Simulator (OTNS)](http://github.com/openthread/ot-ns) can be
+[OpenThread Network Simulator (OTNS)](http://github.com/EskoDijk/ot-ns) can be
 used to simulate Thread networks by running simulated OpenThread nodes on posix
 platforms. OTNS provides an easy-to-use Web interface (OTNS-Web) for visualizing
 and operating simulated Thread networks. Scripted simulations (with Python) is 
@@ -79,7 +79,7 @@ Duration: 10:00
 ### Get OTNS code
 
 ```console
-$ git clone https://github.com/openthread/ot-ns.git ./otns
+$ git clone https://github.com/EskoDijk/ot-ns.git ./otns
 $ cd otns
 ```
 
@@ -154,7 +154,7 @@ $ otns
 ```
 
 You can type in commands through `OTNS-CLI`. Refer to the
-[OTNS CLI reference](https://github.com/openthread/ot-ns/blob/main/cli/README.md#otns-cli-reference)
+[OTNS CLI reference](https://github.com/EskoDijk/ot-ns/blob/main/cli/README.md#otns-cli-reference)
 for a full list of commands. Don't worry, you are only going to use a few of
 these commands in this Codelab.
 
